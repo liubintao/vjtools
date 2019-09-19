@@ -9,6 +9,8 @@ import org.apache.commons.lang3.SystemUtils;
  */
 public class Platforms {
 
+	private Platforms() {}
+
 	// 文件路径分隔符
 	public static final String FILE_PATH_SEPARATOR = File.separator;
 	public static final char FILE_PATH_SEPARATOR_CHAR = File.separatorChar;
